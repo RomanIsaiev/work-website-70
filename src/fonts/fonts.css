@@ -1,35 +1,41 @@
 @font-face {
-  font-family: 'Futura PT';
-  src: url(../fonts/FUTURAPT-LIGHT.TTF);
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url(../fonts/FUTURAPT-BOOK.TTF);
+  font-family: 'Romul';
+  src: url(../fonts/Romul.ttf);
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Futura PT';
-  src: url(../fonts/FUTURAPT-MEDIUM.TTF);
-  font-weight: 450;
+  font-family: 'Helvetica Neue';
+  src: url(../fonts/HelveticaNeueCyr-Bold.ttf);
+  font-weight: 700;
 }
 
 @font-face {
-  font-family: 'Futura PT';
-  src: url(../fonts/FUTURAPT-DEMI.TTF);
+  font-family: 'Helvetica Neue';
+  src: url(../fonts/HelveticaNeueCyr-Medium.ttf);
   font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Futura PT';
-  src: url(../fonts/FUTURAPT-HEAVY.TTF);
-  font-weight: 600;
+  font-family: 'Helvetica Neue';
+  src: url(../fonts/HelveticaNeueCyr-Roman.ttf);
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Futura PT';
-  src: url(../fonts/FUTURAPT-BOLD.TTF);
+  font-family: 'Helvetica Neue';
+  src: url(../fonts/HelveticaNeueCyr-Thin.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url(../fonts/HelveticaNeueCyr-Thin.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Bolkit';
+  src: url(../fonts/BolkitBold.otf);
   font-weight: 700;
 }
