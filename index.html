@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
@@ -20,11 +21,19 @@
           </div>
           <div class="info-box">
             <p class="name">[ Старт ]</p>
-            <p class="info">7 жовтня</p>
+            <p class="info">
+              <span id="dateElement"></span> <span id="monthElement"></span>
+            </p>
           </div>
         </div>
-        <h1 class="title">ТАРО БЕЗ МАГІЇ</h1>
-        <div class="title-container">
+        <h1 class="title" data-aos="fade-right" data-aos-duration="1000">
+          ТАРО БЕЗ МАГІЇ
+        </h1>
+        <div
+          class="title-container"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           <span>АБО</span>
           <p class="subtitle">
             ЯК ДІЗНАТИСЯ УСІ «ЙОГО» СЕКРЕТИ У ВАШИХ СТОСУНКАХ
@@ -50,7 +59,7 @@
           </ul>
         </div>
       </div>
-      <a class="buy-link" href=""
+      <a class="buy-link" data-scroll href="#buy"
         ><div class="buy-container">
           <p class="buy-text">
             ПРИЄДНАТИСЬ <br />
@@ -117,7 +126,9 @@
       </section>
       <section class="for-you section">
         <div class="container">
-          <h2 class="title">ЦЕЙ ІНТЕНСИВ ДЛЯ ТЕБЕ, ЯКЩО:</h2>
+          <h2 class="title" data-aos="fade-right" data-aos-duration="1000">
+            ЦЕЙ ІНТЕНСИВ ДЛЯ ТЕБЕ, ЯКЩО:
+          </h2>
           <picture
             ><source
               srcset="
@@ -131,7 +142,9 @@
               width="320"
               height="180"
           /></picture>
-          <h3 class="subtitle">ТИ ХОЧЕШ ЗНАТИ ВСЕ ПРО СВОГО ПАРТНЕРА</h3>
+          <h3 class="subtitle" data-aos="fade-right" data-aos-duration="1000">
+            ТИ ХОЧЕШ ЗНАТИ ВСЕ ПРО СВОГО ПАРТНЕРА
+          </h3>
           <ul class="for-you-list">
             <li class="list-item">чи зраджує він</li>
             <li class="list-item">його почуття</li>
@@ -143,7 +156,9 @@
       </section>
       <section class="for-those section">
         <div class="container">
-          <h2 class="title">ДЛЯ ТИХ, ХТО:</h2>
+          <h2 class="title" data-aos="fade-right" data-aos-duration="1000">
+            ДЛЯ ТИХ, ХТО:
+          </h2>
           <ul class="for-those-list">
             <li class="list-item">
               <div class="item-box">
@@ -173,7 +188,11 @@
         </div>
       </section>
       <section class="about-author section">
-        <div class="container"><h2 class="title">ПОЗНАЙОМИМОСЬ</h2></div>
+        <div class="container">
+          <h2 class="title" data-aos="fade-right" data-aos-duration="1000">
+            ПОЗНАЙОМИМОСЬ
+          </h2>
+        </div>
         <div class="image-container"><h3 class="name">Таня Караянц</h3></div>
         <div class="container">
           <ul class="about-author-list">
@@ -223,7 +242,9 @@
       </section>
       <section class="about-intensive section">
         <div class="container">
-          <h2 class="title">ПРО ІНТЕНСИВ:</h2>
+          <h2 class="title" data-aos="fade-right" data-aos-duration="1000">
+            ПРО ІНТЕНСИВ:
+          </h2>
           <p class="desc">
             ОНЛАЙН ІНТЕНСИВ НА ЯКОМУ ВИ ДІЗНАЄТЕСЬ
             <span>ВСЕ ПРО СВОЄ ОСОБИСТЕ ЖИТТЯ</span>
@@ -236,7 +257,9 @@
       </section>
       <section class="program section">
         <div class="container">
-          <h2 class="title">ПРОГРАМА</h2>
+          <h2 class="title" data-aos="fade-right" data-aos-duration="1000">
+            ПРОГРАМА
+          </h2>
           <ul class="program-list">
             <li class="list-item">
               <div class="image-box">
@@ -365,7 +388,9 @@
       </section>
       <section class="bonuses">
         <div class="container">
-          <h2 class="title">БОНУСИ:</h2>
+          <h2 class="title" data-aos="fade-right" data-aos-duration="1000">
+            БОНУСИ:
+          </h2>
           <ul class="bonuses-list">
             <li class="bonuses-item">
               <div class="item-box">
@@ -428,7 +453,7 @@
           </div>
         </div>
       </section>
-      <section class="buy-section section">
+      <section class="buy-section section" id="buy">
         <div class="container">
           <div class="buy-wrapper">
             <img
@@ -440,7 +465,7 @@
             />
             <h2 class="title">Встигніть придбати зі знижкою 90%</h2>
             <p class="price"><span>3999 грн</span> 399 грн</p>
-            <button class="buy-btn">ПРИЄДНАТИСЬ</button>
+            <button class="buy-btn" data-modal-open>ПРИЄДНАТИСЬ</button>
             <p class="desc">
               100% гарантія повернення коштів. <br />
               <br />
@@ -454,7 +479,9 @@
       </section>
       <section class="study-format section">
         <div class="container">
-          <h2 class="title">ФОРМАТ НАВЧАННЯ</h2>
+          <h2 class="title" data-aos="fade-right" data-aos-duration="1000">
+            ФОРМАТ НАВЧАННЯ
+          </h2>
           <ul class="study-format-list">
             <li class="list-item">
               <div class="item-box">
@@ -489,7 +516,9 @@
       </section>
       <section class="you-get section">
         <div class="container">
-          <h2 class="title">ЩО ВИ ОТРИМАЄТЕ ПО ЗАКІНЧЕННЮ ОНЛАЙН ІНТЕНСИВУ</h2>
+          <h2 class="title" data-aos="fade-right" data-aos-duration="1000">
+            ЩО ВИ ОТРИМАЄТЕ ПО ЗАКІНЧЕННЮ ОНЛАЙН ІНТЕНСИВУ
+          </h2>
           <picture
             ><source
               srcset="
@@ -503,7 +532,9 @@
               width="320"
               height="180"
           /></picture>
-          <h3 class="subtitle">Відповіді:</h3>
+          <h3 class="subtitle" data-aos="fade-right" data-aos-duration="1000">
+            Відповіді:
+          </h3>
           <ul class="you-get-list">
             <li class="list-item">Зраджує чи ні?</li>
             <li class="list-item">Кохає або обман?</li>
@@ -516,7 +547,9 @@
       </section>
       <section class="questions section">
         <div class="container">
-          <h2 class="title">Відповіді на запитання</h2>
+          <h2 class="title" data-aos="fade-right" data-aos-duration="1000">
+            Відповіді на запитання
+          </h2>
           <div class="questions-container">
             <ul class="questions-list list">
               <li class="questions-item">
@@ -600,7 +633,7 @@
               </li>
             </ul>
           </div>
-          <a class="buy-link" href=""
+          <a class="buy-link" data-scroll href="#buy"
             ><div class="buy-container">
               <p class="buy-text">
                 ПРИЄДНАТИСЬ <br />
@@ -636,6 +669,26 @@
         >
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="40"
+            height="40"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1729755365000"></div>
+      </div>
+    </div>
+    <script src="./src/js/js-modal.js" type="module"></script>
+    <script src="./src/js/changeDate.js" type="module"></script>
     <script src="./src/js/questions.js" type="module"></script>
+    <script src="./src/js/aos.js" type="module"></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1729755365000&uuid=42f1b961-7a87-4706-95e6-c818035607b0&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>
