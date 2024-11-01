@@ -123,13 +123,13 @@
   color: #090909;
   text-align: center;
   font-family: 'Helvetica Neue';
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 100%; /* 16px */
   letter-spacing: -0.48px;
 
-  max-width: 257px;
+  max-width: 280px;
   margin: 0 auto 16px auto;
 }
 
@@ -169,12 +169,16 @@
 }
 
 .header-list .list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   color: #fff;
   text-align: center;
   font-family: 'Helvetica Neue';
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 110%; /* 13.2px */
   letter-spacing: -0.24px;
 
@@ -520,7 +524,7 @@
   font-family: 'Helvetica Neue';
   font-size: 16px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 115%; /* 18.4px */
 
   max-width: 260px;
