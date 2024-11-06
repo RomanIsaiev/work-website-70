@@ -71,20 +71,36 @@
 }
 
 .header .title {
-  color: #090909;
+  color: #c62719;
   text-align: center;
   font-family: 'Helvetica Neue';
   font-size: 29px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100%; /* 26.1px */
-  letter-spacing: -1.16px;
+  line-height: 120%; /* 26.1px */
+  letter-spacing: -0.87px;
+  text-transform: uppercase;
+
+  margin-bottom: 8px;
+}
+
+.title-subtitle {
+  margin-top: -8px;
+
+  display: block;
+  color: #c62719;
+  font-family: 'Helvetica Neue';
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90%;
+  letter-spacing: -1.71px;
   text-transform: uppercase;
 
   margin-bottom: 4px;
 }
 
-.header .title-container {
+/* .header .title-container {
   margin-top: -4px;
 
   display: flex;
@@ -93,44 +109,47 @@
   gap: 4px;
 
   margin-bottom: 16px;
-}
+} */
 
-.header .title-container span {
+/* .header .title-container span {
   color: #c62719;
   font-family: Romul;
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
   line-height: 90%; /* 54px */
-  letter-spacing: -2.4px;
-  text-transform: uppercase;
-}
+/* letter-spacing: -2.4px; */
+/* text-transform: uppercase; */
 
 .header .subtitle {
-  color: #c62719;
+  color: #090909;
+  text-align: center;
   font-family: 'Helvetica Neue';
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
-  line-height: 120%; /* 18px */
-  letter-spacing: -0.3px;
+  line-height: 130%; /* 15px */
+  letter-spacing: -0.45px;
   text-transform: uppercase;
 
-  max-width: 225px;
+  max-width: 320px;
+
+  margin: 0 auto 20px auto;
 }
 
 .header .desc {
   color: #090909;
   text-align: center;
   font-family: 'Helvetica Neue';
-  font-size: 18px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 100%; /* 16px */
-  letter-spacing: -0.48px;
+  line-height: 100%; /* 15px */
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
 
   max-width: 280px;
-  margin: 0 auto 16px auto;
+  margin: 0 auto 6px auto;
 }
 
 .header .image-container {
@@ -176,7 +195,7 @@
   color: #fff;
   text-align: center;
   font-family: 'Helvetica Neue';
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 110%; /* 13.2px */
