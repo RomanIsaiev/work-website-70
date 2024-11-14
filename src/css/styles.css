@@ -1107,6 +1107,10 @@
   margin-bottom: 60px;
 }
 
+.deals-link {
+  display: block;
+}
+
 .deals-box .public {
   margin-bottom: 4px;
 }
